@@ -1,0 +1,5 @@
+# 说明
+## 本项目是基于Android搭建的服务器，实现文件上传
+## 手机安装的是termux+ubuntu+mariadb+java,将maven构建后的jar在手机上运行
+# 技术栈
+## termux+ubuntu+springboot+mariadb+mybatis+vue+elemntui

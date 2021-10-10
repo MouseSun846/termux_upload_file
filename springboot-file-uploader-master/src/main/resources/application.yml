@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    username: mouse
+    password: 786238776
+    url: jdbc:mariadb://192.168.31.253:3306/MyUploader?characterEncoding=utf-8&useSSL=false&useTimezone=true&serverTimezone=GMT%2B8
+    driver-class-name: org.mariadb.jdbc.Driver
+  servlet:
+    multipart:
+      max-file-size: 10000Mb
+      max-request-size: 100000Mb
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+  type-aliases-package: cn.attackme.myuploader.model
+upload:
+  path: /sd/Download/WeiXin/share/  #文件上传路径
+#  path: C:\\Users\\78623\\Desktop\\upload\\
